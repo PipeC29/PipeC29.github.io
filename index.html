@@ -1,0 +1,569 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Valhala Barber</title>
+    <link rel="icon" href="/_Cuts_Black.png">
+    <link rel="stylesheet" href="/style.css">
+
+    <!--ICONSCOUT CDN-->
+    <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.0/css/line.css">
+
+    <!--GOOGLE FONT JOST-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!--GOOGLE FONT MONTECARLO-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=MonteCarlo&display=swap" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
+
+    <script src="https://kit.fontawesome.com/75f9e9102e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--LOADING PAGE-->
+    <div class="loader_bg">
+        <div class="loader">
+            <div class="wrapper">
+                <div class="wrapper-container">
+                    <div class="image-cube">
+                        <div class="front">
+                            <img src="/LOGO VALHALLA.png">
+                        </div>
+                        <div class="right">
+                            <img src="/LOGO VALHALLA.png">
+                        </div>
+                        <div class="back">
+                            <img src="/LOGO VALHALLA.png">
+                        </div>
+                        <div class="left">
+                            <img src="/LOGO VALHALLA.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--START OF NAV-->
+    <nav class="navbar-one">
+        <div class="container first_nav">
+            <div class="first_nav_container">
+                <p>WELCOME TO VALHALLA BARBER</p>
+                <a href="REFERENCIA A LA PAGINA DE BOOKINGS"
+                    target="_blank">BOOK APPOINTMENT (aqui pone su pagina de bookings)</a>
+            </div>
+        </div>
+    </nav>
+
+    <nav id="second_nav" class="nav_continer">
+        <a href="./index.html" class="nav__logo">
+            <figure>
+                <img src="/VALHALLA LOGO.png" alt="Valhalla Barber">
+            </figure>
+        </a>
+
+        <div class="container nav__menu" id="nav-menu">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a href="./index.html" class="nav__link active-link">
+                        <i class='uil uil-estate nav__icon'></i>
+                        <span id="current" class="nav__name">HOME</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./about.html" class="nav__link">
+                        <i class='uil uil-user nav__icon'></i>
+                        <span class="nav__name">ABOUT</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./services.html" class="nav__link">
+                        <i class='uil uil-books nav__icon'></i>
+                        <span class="nav__name">SERVICES</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./gallery.html" class="nav__link">
+                        <i class='uil uil-images nav__icon'></i>
+                        <span class="nav__name">GALLERY</span>
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="./contact.html" class="nav__link">
+                        <i class='uil uil-comment nav__icon'></i>
+                        <span class="nav__name">CONTACT</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="elementor-widget-container">
+            <div class="elementor-icon-box-wrapper">
+                <div class="elementor-icon-box-icon">
+                    <span class="elementor-icon-elementor-animation">
+                        <i class="uil uil-phone-volume"></i>
+                    </span>
+                </div>
+                <div class="elementor-icon-box-content">
+                    <h5 class="elementor-icon-box-title">
+                        <span>+61 (420) 900-996</span>
+                    </h5>
+                    <p class="elementor-icon-box-description">
+                        Mon-Sat: 9am to 6pm
+                    </p>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!--END OF NAV-->
+    <!-- WHATSAPP -->
+    <div class="whatsapp">
+        <a href="https://wa.me/+61420900996" target="_blank">
+            <img src="/whatsapp.svg" alt="" class="img-fluid">
+        </a>
+    </div>
+    <!--START OF HEADER-->
+    <header>
+        <div class="container header__container">
+            <div class="header__left">
+                <div class="header__left__container">
+                    <figure>
+                        <img src="/LOGO VALHALLA A 2 COLORS.png" alt="">
+                    </figure>
+                    <h3>AQUI VA SU SLOGAN ANGELO EL GAY</h3>
+                    <div class="barber__button">
+                        <a href="REFERENCIA A BOOKINGS"
+                            target="_blank">BOOK APPOINTMENT</a>
+                    </div>
+                </div>
+            </div>
+            <div class="header__right">
+                <div class="header__right__container">
+                    <div class="icon_facebook">
+                        <a href="https://www.facebook.com/vikings.barber.3" target="_blank">
+                            <i class="uil uil-facebook-f"></i>
+                        </a>
+                    </div>
+                    <div class="icon_instagram">
+                        <a href="https://www.instagram.com/ernesto_barber/?hl=es" target="_blank">
+                            <i class="uil uil-instagram"></i>
+                        </a>
+                    </div>
+                    <div class="icon_email">
+                        <a href="mailto:CORREO" target="_blank">
+                            <i class="uil uil-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!--END OF HEADER-->
+    <!--START OF INTRODUCTION-->
+    <section class="introduction">
+        <div class="container introduction__container">
+            <div class="our_introduction">
+                <h5>OUR INTRODUCTION</h5>
+                <h2>FRESH SOLUTIONS FOR YOUR LOOKS</h2>
+                <div class="text_introduction">
+                    <p>Aqui va como la carreta que ud quiera poner para que le crean
+                        que ud sabe cortar el cabello.
+                        Lo de aqui abajo lo saque de internet.</p>
+                    <ul class="elementor-icon-list-items">
+                        <li class="elementor-icon-list-item">
+                            <span class="elementor-icon-list-icon">
+                                <i class="uil uil-check-circle"></i>
+                            </span>
+                            <span class="elementor-icon-list-text">
+                                We're professional and certified barbers
+                            </span>
+                        </li>
+                        <li class="elementor-icon-list-item">
+                            <span class="elementor-icon-list-icon">
+                                <i class="uil uil-check-circle"></i>
+                            </span>
+                            <span class="elementor-icon-list-text">
+                                We use quality products to make you look perfect
+                            </span>
+                        </li>
+                        <li class="elementor-icon-list-item">
+                            <span class="elementor-icon-list-icon">
+                                <i class="uil uil-check-circle"></i>
+                            </span>
+                            <span class="elementor-icon-list-text">
+                                We care about our customers satisfaction
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+                <div class="barber__button">
+                    <a href="./about.html">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END OF INTRODUCTION-->
+    <!--START OF ABOUT US-->
+    <section class="about_us">
+        <div class="container about_us__container">
+            <div class="about_us_titles">
+                <h4>Why love us?</h4>
+                <h3>About Me</h3>
+            </div>
+            <div class="about_us_featured">
+                <div class="featured_left">
+                    <article class="category">
+                        <span class="category__text">
+                            <h5>PARA MI MAMI SOY EL MEJOR</h5>
+                            <p>Le doy un calvaso y lo mando para la casa.</p>
+                        </span>
+                        <span class="category__icon">
+                            <img src="/razor-2.svg" alt="">
+                        </span>
+                    </article>
+                    <article class="category">
+                        <span class="category__text">
+                            <h5>MY Team</h5>
+                            <p>Son todos bobitos.</p>
+                        </span>
+                        <span class="category__icon">
+                            <img src="/bald-man-with-mostache-and-glasses.svg" alt="">
+                        </span>
+                        </span>
+                    </article>
+                    <article class="category">
+                        <span class="category__text">
+                            <h5>Equipment</h5>
+                            <p>Ya hablando en serio ud me dice aqui que poner.</p>
+                        </span>
+                        <span class="category__icon">
+                            <img src="/scissors.svg" alt="">
+                        </span>
+                    </article>
+                </div>
+                <div class="featured_center">
+                    <img src="/love-us - Copy.png" alt="">
+                </div>
+                <div class="featured_right">
+                    <article class="category">
+                        <span class="category__text">
+                            <h5>Mustache</h5>
+                            <p>Cosas Varias de internet.</p>
+                        </span>
+                        <span class="category__icon">
+                            <img src="/hair-dryer.svg" alt="">
+                        </span>
+                    </article>
+                    <article class="category">
+                        <span class="category__text">
+                            <h5>Modern Styles</h5>
+                            <p>Todo esto se modifica a su gusto.</p>
+                        </span>
+                        <span class="category__icon">
+                            <img src="/shaving-cream.svg" alt="">
+                        </span>
+                    </article>
+                    <article class="category">
+                        <span class="category__text">
+                            <h5>Beauty Place</h5>
+                            <p>Y pone lo que le salga del alma.</p>
+                        </span>
+                        <span class="category__icon">
+                            <img src="/razor-4.svg" alt="">
+                        </span>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END OF ABOUT US-->
+    <!--START OF SERVICES-->
+    <section class="services">
+        <div class="container services__container">
+            <div class="service__container">
+                <div class="services__title">
+                    <h5>WHAT WE DO</h5>
+                    <h2>BARBER SERVICES</h2>
+                </div>
+                <div class="services__description">
+                    <p>Aqui ud describe lo que hace y esas cosas
+                        bla bla bla bla bla bla, bla bla bla bla bla blaa
+                        bla bla bla bla bla bla
+                        bla bla bla bla bla bla bla bla bla bla bla bla
+                        VALHALLA BARBER.</p>
+                </div>
+            </div>
+            <div class="services__cards">
+                <div id="hair_cut" class="service__card">
+                    <div class="card__content">
+                        <h3>Tipo de peinado 1</h3>
+                        <p>Aqui le pone lo que quiera.</p>
+                        <a href="./services.html">Read More</a>
+                    </div>
+                    <img src="/haircut.png" alt="">
+                </div>
+                <div id="towel_head_shave" class="service__card">
+                    <div class="card__content">
+                        <h3>Tipo de peinado 2</h3>
+                        <p>Aqui le pone lo que quiera.</p>
+                        <a href="./services.html">Read More</a>
+                    </div>
+                    <img src="/shave_beard.png" alt="">
+                </div>
+                <div id="kids_cut" class="service__card">
+                    <div class="card__content">
+                        <h3>Tipo de peinado 3</h3>
+                        <p>Aqui le pone lo que quiera.</p>
+                        <a href="./services.html">Read More</a>
+                    </div>
+                    <img id="hairdryer" src="/kidcuts.png" alt="">
+                </div>
+                <div id="fade_cuts" class="service__card">
+                    <div class="card__content">
+                        <h3>Tipo de peinado 4</h3>
+                        <p>Aqui le pone lo que quiera.</p>
+                        <a href="./services.html">Read More</a>
+                    </div>
+                    <img src="/fade_cuts.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--END OF SERVICES-->
+    <!--START OF ACHIEVEMENTS
+    <section class="achievements">
+        <div class="container achievements__container">
+            <div class="achievement">
+                <div class="achievement__icon">
+                    <img src="/hairstyles.png" alt="">
+                </div>
+                <div class="achievement__info">
+                    <h3 class="counteer">2</h3>
+                    <h6>HAIR STYLES QUE ME HA HECHO</h6>
+                </div>
+            </div>
+            <div class="achievement">
+                <div class="achievement__icon">
+                    <img src="/haircuts.png" alt="">
+                </div>
+                <div class="achievement__info">
+                    <h3 class="counteer">5</h3>
+                    <h6>HAIR CUTS LAS VECES QUE ME LO HA CORTADO</h6>
+                </div>
+            </div>
+            <div class="achievement">
+                <div class="achievement__icon">
+                    <img src="/customers.png" alt="">
+                </div>
+                <div class="achievement__info">
+                    <h3 class="counteer">1</h3>
+                    <h6>CUSTOMERS, OSEA YO</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+    END OF ACHIEVEMENTS-->
+    <!--START OF PROMO-SHORT
+    <section class="promo_short">
+        <div class="container promo_short__container">
+            <div class="promo_short_text">
+                <h5>LET´S GET IN TOUCH</h5>
+                <h3>WE´RE A PERFECT GENTLEMEN´S CHOICE</h3>
+            </div>
+            <div class="promo_short_video">
+                <div class="playBtn">
+                    <svg xmlns="http://www.w3.org/2000/svg" id="play" width="119.91" height="119.91">
+                        <path fill="#a88a61"
+                            d="M58.8 10.8c-27.77 0-50.3 22.5-50.3 50.3 0 27.78 22.53 50.3 50.3 50.3 27.8 0 50.32-22.52 50.32-50.3 0-27.8-22.53-50.3-50.3-50.3zm0 97.97c-26.32 0-47.66-21.34-47.66-47.67 0-26.34 21.34-47.68 47.67-47.68 26.37 0 47.7 21.34 47.7 47.67 0 26.3-21.33 47.64-47.66 47.64z" />
+                        <path fill="#a88a61"
+                            d="M58.8 21.12c-22.07 0-39.97 17.9-39.97 39.98s17.9 39.98 39.98 39.98c22.1 0 40-17.9 40-39.98s-17.9-39.98-40-39.98zm3.52 50.7L43.77 82.47l.04-21.37.07-21.37 18.5 10.72 18.5 10.72L62.3 71.82z" />
+                    </svg>
+                </div>
+            </div>
+            <div class="clip">
+                <video src="/video.mp4" controls></video>
+                <i id="clip_close" class="uil uil-multiply"></i>
+            </div>
+        </div>
+    </section>
+    END OF PROMO-SHORT-->
+    <!--START OF CONNECT_US-->
+    <section class="connect_us">
+        <div class="container connect_us__container">
+            <div class="connect_us__text">
+                <h3>
+                    -- Connect with us --
+                </h3>
+            </div>
+            <div class="connect_us__socials">
+                <ul class="connect_us_layer">
+                    <li class="social_media_icon">
+                        <a href="https://www.facebook.com/vikings.barber.3/" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span>
+                                <i class="fa-brands fa-facebook-f" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="social_media_icon">
+                        <a href="https://www.instagram.com/_valhallabarbershop/" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span>
+                                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="social_media_icon">
+                        <a href="https://www.tiktok.com/" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span>
+                                <i class="fa-brands fa-tiktok" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                    <li class="social_media_icon">
+                        <a href="mailto:" target="_blank">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span>
+                                <i class="fa-solid fa-envelope" aria-hidden="true"></i>
+                            </span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!--END OF CONNECT_US-->
+    <!-- START FOOTER  -->
+    <footer>
+        <div class="container footer__container">
+            <div class="footer__1">
+                <img class="logo_footer" src="/LOGO VALHALLAA 2 COLORS.png" alt="">
+            </div>
+            <div class="footer__2">
+                <h4>Permalinks</h4>
+                <ul class="permalinks">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer__3">
+                <h4>Privacy</h4>
+                <ul class="privacy">
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms and conditions</a></li>
+                    <li><a href="#">Refund Policy</a></li>
+                </ul>
+            </div>
+            <div class="footer__4">
+                <h4>Contact us</h4>
+                <div class="footer__4__text">
+                    <div>
+                        <i class="uil uil-mobile-android"></i>
+                        <a href="https://wa.me/+61420900996">
+                            <p>+61 (420)900-996</p>
+                        </a>
+                    </div>
+                    <div>
+                        <i class="uil uil-envelope"></i>
+                        <a href="mailto:@gmail.com">
+                            <p>info@VALHALLA.com</p>
+                        </a>
+                    </div>
+                    <div>
+                        <i class="uil uil-map-marker-alt"></i>
+                        <a
+                            href="https://goo.gl/maps/CdVpggTPZ6EYcEzEA">
+                            <p>630 Wickham St, Fortitude Valley QLD 4006</p>
+                        </a>
+                    </div>
+                    <div>
+                        <i class="uil uil-clock-three"></i>
+                        <div>
+                            <p id="schedule_one">
+                                MON - FRI : 10:00AM - 19:00PM
+                            </p>
+                            <p id="schedule_two">
+                                SAT : 9:00AM - 17:00PM
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Copyright PART  
+        <div class="footer__copyright">
+            <small>Copyright &copy; Valhalla Barber</small>
+        </div>
+        -->
+    </footer>
+    <!-- END FOOTER  -->
+    <script>
+        $(document).ready(function () {
+            $(".counteer").counterUp({
+                delay: 5,
+                timer: 1000,
+            });
+        });
+    </script>
+    <script>
+        let btn = document.querySelector('.playBtn');
+        let clip = document.querySelector('.clip');
+        let close = document.querySelector('#clip_close');
+        let video = document.querySelector('video')
+        btn.onclick = function () {
+            btn.classList.add('active');
+            clip.classList.add('active');
+            video.play();
+            video.currentTime = 0;
+        }
+        close.onclick = function () {
+            btn.classList.remove('active');
+            clip.classList.remove('active');
+            video.pause();
+        }
+    </script>
+    <script>
+        document.addEventListener('click', toggleClass);
+
+        function toggleClass() {
+            document.getElementById("play").classList.toggle('goDown');
+        }
+    </script>
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 3500);
+    </script>
+</body>
+
+</html>
